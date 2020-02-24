@@ -2,7 +2,7 @@
 /**console.log("User flipped " + cardTow);
 console.log("User flipped " + cardThree);**/
 
-const cards = ["queen", "queen", "king","King"];
+	//const cards = ["queen", "queen", "king","King"];
 	const cardInPlay = [];
 
 	/**const cardOne = cards[0];
@@ -42,17 +42,24 @@ const cards = ["queen", "queen", "king","King"];
 
 function flipCard(cardId){
 
-	let cardOne = cards[0];
+	//let cardOne = cards[0];
 
-	cardsInPlay.push(cardOne);
+	cardsInPlay.push(Caeds[]);
 
-	console.log("User flipped " + cardOne);
+	console.log("User flipped " + Cards[].rank);
 
-	let cardTow = cards[2];
+	//let cardTow = cards[2];
 
-	cardsInPlay.push(cardTow);
+	cardsInPlay.push(Caeds[]);
 
-	console.log("User flipped " + cardTow);
+	console.log("User flipped " + Cards[].rank);
 
 	checkForMatch()
 }
+
+const Cards = [
+	{ CardsName: "gueen", color: "red" },
+	{ CardsName: "king", color: "red" },
+	{ CardsName: "gueen", color: "black" },
+	{ CardsName: "king", color: "black" }
+];
